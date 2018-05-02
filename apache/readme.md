@@ -13,4 +13,11 @@
 3. Test apache
   * `apachectl configtest`
 4. Make sites with their domain as folder name
-  * ie: `kylehotchkiss.mac` = `http://kylehotchkiss.mac`. `hotchkissmade.mac` = `http://hotchkissmade.mac`
+  * ie: `/Sites/kylehotchkiss.mac` = `http://kylehotchkiss.mac`. `/Sites/hotchkissmade.mac` = `http://hotchkissmade.mac`
+
+
+### FAQ
+
+**Why keep sites in `/Sites` instead of `/User/%myusername%/Sites`?**
+
+Requires changing too many permissions I precieve are an important part of OSX security policy. May be reset back to defaults with updates. `/Sites` doesn't exist in OSX to start, so updaters shouldn't touch. Also, other computer users can edit if that matters.
