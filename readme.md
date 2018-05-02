@@ -6,7 +6,7 @@ Some code I use to setup new laptops. Philosophies:
 * Configure once, not for every project. I am a web developer with many clients, and often when called into a new project I'm in something of a rush. Making setting up new-to-me projects quickly is critical.
 * Prefer UI when elegant native apps exist. Command line when not. 
   * For example, Tower 2 (Git application) is far better than command line
-  * Transmit is far better than rsyncing files
+  * Transmit is far better than rsyncing files or trying to login to S3.
 
 ## Apache / DNSMasq
 
