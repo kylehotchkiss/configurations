@@ -1,7 +1,7 @@
 ## Dynamic Hostname Support for Apache
 
 1. Edit /etc/apache/http.conf 
-  * make sure PHP and vhosts modules are loaded
+  * make sure `php7_module`, `rewrite_module`, and `vhost_alias_module` modules are loaded (uncommented)
   * add index.php to directory indexes
   * make sure /extra/http-vhosts.conf loads
 2. Add some structure
