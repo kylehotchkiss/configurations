@@ -3,7 +3,7 @@
 Some code I use to setup new laptops. Philosophies:
 
 * Don't reinvent the wheel. I've been using these configurations for years, across many computers.
-* Configure once, not for every project. I am a web developer with many clients, and often when called into a new project I'm in something of a rush. Making setting up new-to-me projects quickly is critical.
+* Configure once, not for every project. I am a web developer with many clients, I'd prefer to be up and running as soon as possible.
 * Prefer UI when elegant native apps exist. Command line when not. 
   * For example, Tower 2 (Git application) is far better than command line
   * Transmit is far better than rsyncing files or trying to login to S3.
